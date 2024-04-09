@@ -8,9 +8,16 @@ body {
     height: 100vh;
     background-color: #f4f4f4;
 }
-
+.whole{
+    background-image: url("../image/loginBack.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 .container {
     width: 300px;
+    background-image: url("../image/log.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
