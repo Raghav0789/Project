@@ -1,5 +1,5 @@
 const mysql = require("mysql");
-const expree = require("express");
+const express = require("express");
 const bodyParser = require("body-parser");
 const encoder = bodyParser.urlencoded();
 
