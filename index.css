@@ -16,7 +16,7 @@
     width: 100%;
     margin: 0 ;
     border-radius: 0px;
-    background-color: rgb(232, 236, 8)
+    background-color: rgba(8, 209, 236, 0.85)
 }
 
 #main-nav ul{
@@ -38,7 +38,7 @@
     border-radius: 20px;
     text-decoration: none;
     color: black;
-    background-color: rgba(232, 236, 8, 0.85)
+    background-color: rgba(8, 209, 236, 0.85)
     
 }
 
@@ -60,7 +60,7 @@
 .intro {
     height: 100%;
     text-align: center;
-    background-color: rgba(71, 66, 66, 0.85);
+    background-color: rgba(18, 236, 225, 0.85);
     color: var(--text-color);
     display: flex;
     align-items: center;
@@ -142,9 +142,7 @@ height: 120%;
     background-color: white;
 }
 
-
-
-
+/* ===================================================================================================== */
 
 
 
