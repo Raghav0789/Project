@@ -30,14 +30,47 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#explore">
+                    <a href="exp.html" >
                         <span>Explore</span> <i class="fa-solid fa-toolbox"></i>
                     </a>
                 </li>
                 <li>
                     <a href="#more">
-                        <span>More</span> <i class="fa-regular fa-address-book"></i>
+                        <!-- <span>More</span> <i class="fa-regular fa-address-book"></i> -->
+                        <label >More</label>
+                            <select style="height: 1px; width: 1px;" class="btn" id="moreOptions" onchange="navigate()">
+                              <option value="">More</option>
+                              <option value="quiz">Quiz</option>
+                              <option value="contact">Contact Us</option>
+                              <option value="other">Other</option>
+                            </select>
+                          
+                          
+                          <script>
+                          function navigate() {
+                            var selectBox = document.getElementById("moreOptions");
+                            var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+                            if (selectedValue === "quiz") {
+                              window.location.href = "quiz/quiz.html"; // Replace with the URL of your quiz page
+                            } else if (selectedValue === "contact") {
+                              window.location.href = "contact/ContactUs.html"; // Replace with the URL of your contact page
+                            } else if (selectedValue === "other") {
+                              window.location.href = "other.html"; // Replace with the URL of your other page
+                            }
+                          }
+                          </script>
+                          
+
+                        
+
                     </a>
+                    <!-- <label ><a class="">More
+                        <select class="btn" style="height: 1px; width: 4px;" name="more" id="more">
+                            <option value="">Contact US</option>
+                            <option value="">Quiz</option>
+                            <option value="">Other</option>
+                        </select>
+                    </a></label> -->
                 </li>
             </ul>
         </nav>
